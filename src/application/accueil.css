@@ -1,0 +1,26 @@
+
+
+ .AnchorPane{
+        -fx-background-image: url("/application/fond.jpg");
+        -fx-background-repeat: stretch;   
+        -fx-background-size: 1024.0 768.0;
+        -fx-background-position: center center;
+        -fx-effect: dropshadow(three-pass-box, black, 30.0, 0.5, 0.0, 0.0); 
+ }
+
+.colorButton{
+    -fx-background-color: 
+        rgba(0.0,0.0,0.0,0.08),
+        linear-gradient(#5a61af, #51536d),
+        linear-gradient(#e4fbff 0.0%,#cee6fb 10.0%, #a5d3fb 50.0%, #88c6fb 51.0%, #d5faff 100.0%);
+    -fx-background-insets: 0.0 0.0 -1.0 0.0,0.0,1.0;
+    -fx-background-radius: 5.0,5.0,4.0;
+    -fx-padding: 3.0 30.0 3.0 30.0;
+    -fx-text-fill: #242d35;
+    -fx-font-size: 14.0px;
+}
+
+.closeButton{
+	-fx-graphic: url("/application/bouton_fermer.jpg");
+	
+}

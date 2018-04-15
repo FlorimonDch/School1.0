@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="768.0" prefWidth="1024.0" styleClass="AnchorPane" stylesheets="@accueil.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ConnecteController">
+   <children>
+      <ImageView fx:id="imageClose" fitHeight="70.0" fitWidth="70.0" layoutX="940.0" layoutY="17.0">
+         <image>
+            <Image url="@bouton_fermer.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnRetour" layoutX="70.0" layoutY="685.0" mnemonicParsing="false" onAction="#handleButtonRetour" prefHeight="50.0" prefWidth="160.0" styleClass="colorButton" stylesheets="@accueil.css" text="Se déconnecter" />
+      <Label layoutX="221.0" layoutY="54.0" prefHeight="67.0" prefWidth="582.0" text="Bienvenue sur la page étudiant">
+         <font>
+            <Font name="AR ESSENCE" size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="347.0" layoutY="285.0" prefHeight="70.0" prefWidth="140.0" text="Bonjour">
+         <font>
+            <Font name="Baskerville Old Face" size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="login" layoutX="498.0" layoutY="285.0" prefHeight="70.0" prefWidth="140.0" text="Text">
+         <font>
+            <Font name="Baskerville Old Face" size="40.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="70.0" layoutY="231.0">
+         <image>
+            <Image url="@../../images/etudiant.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="719.0" layoutY="231.0">
+         <image>
+            <Image url="@../../images/etudiant.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
